@@ -6,13 +6,13 @@ h1 {
     font-size:138px;
     font-family: 'Playfair Display', serif;
     color:#31668E;
-    position: relative; right:415px;top:-50px;
+    position: relative; right:-415px;top:-50px;
 }
 
 h3 {
   font-family: 'Quattrocento', serif;
   color: white;
-  position: relative; top:700px;
+  position: relative; top:675px;
   font-size:24px;
   text-align:center;
   spacing:5px;
@@ -21,7 +21,7 @@ h3 {
 h2 {
   font-family: 'Quattrocento', serif;
   color:white;
-  position:relative; top:650px;
+  position: relative; top:350px;
   font-size:24px;
   text-align:center;
 }
@@ -29,7 +29,7 @@ h2 {
 .image {
   height: 300px;
   width: 300px;
-  position: relative; right:560px; top:325px;
+  position: relative; right:-560px; top:-55px;
 }
 
 .button {
@@ -71,13 +71,13 @@ height: 250px;
 border: 5px solid gray;
 margin: 0;
 background-color: white;
-position:fixed;
+position:relative;
 }
 
 .image1 {
   height: 250px;
   width:480px;
-  position:fixed; top:850px;left: 0px;
+  position: relative; top:415px;left: 175px;
 }
 
 .container {
@@ -87,5 +87,5 @@ position:fixed;
 }
 
 .box1 {
-  
+
 }
