@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Login Page</title>
+  <link href="login.css" type="text/css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+
+  <script>
+
+    function checkForm(form)
+    {
+      if(form.firstname.value == "") {
+        alert("Error: First name is empty!");
+        form.firstname.focus();
+        return false;
+      }
+
+      if (form.lastname.value == "") {
+        alert("Error: Last name is empty!");
+        form.lastname.focus();
+        return false;
+      }
+
+      return true;
+    }
+
+  </script>
+
+</head>
+
+<body>
+  <h1>Sign in Form</h1>
+
+    <div class="container">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+
+    <a href="index.html"><button class="button">We Learn</button></a>
+
+    <form action="welcome.html" method="post" onsubmit="return checkForm(this);">
+
+    <div class="move">
+      <h2>First Name:</h2>
+      <input type="text" placeholder="Enter First name" name="firstname" >
+    </div>
+
+    <div class="move1">
+      <h2>Last Name:</h2>
+      <input type="text" placeholder="Enter Last name" name="lastname" >
+    </div>
+
+    <div class="move2">
+      <input type="submit" value="Sign In">
+    </div>
+  </form>
+
+</body>
+</html>

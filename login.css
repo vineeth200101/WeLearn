@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #31668E;
+  background-size: cover;
+}
+
+.container {
+  width:750px;
+  height:550px;
+  background:white;
+  margin: 0 auto;
+  border: 2px solid white;
+  box-shadow: 0 30px 40px rgba(0,0,0,.5);
+  position: fixed; top:200px; right:350px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  text-align:center;
+  position:fixed; top:80px; right:575px;
+  font-size: 50px;
+  color:white;
+}
+
+.container .right {
+  float: right;
+  width:350px;
+  height: 550px;
+  background: url(books.jpg);
+  background: cover;
+}
+
+.move {
+  position:fixed; top:300px; right:825px;
+}
+
+h2 {
+  font-family: 'Quattrocento', serif;
+  font-size:29px;
+}
+
+.move1 {
+  position:fixed; top:450px; right:825px;
+}
+
+.move2 {
+  position:fixed; right:900px; top:625px;
+}
+
+input[type=text] {
+    width: 200px;
+    height: 33px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Quattrocento', serif;
+
+}
+
+input[type=submit] {
+  width:65px;
+  font-family: 'Quattrocento', serif;
+
+}
+
+.button {
+    background-color: #78A2C2;
+    font-family: 'Quattrocento', serif;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    position: fixed; top:50px; right:1250px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button {
+    background-color: #78A2C2;
+    color: white;
+    border: 2px solid: #78A2C2;
+    font-family: 'Quattrocento', serif;
+    font-size:18px;
+  }
+
+  .button:hover {
+    background-color: white;
+    color: #78A2C2;
+    border:2px solid: #78A2C2;
+    font-family: 'Quattrocento', serif;
+    font-size:18px;
+  }
+
+.all_move {
+  position:relative; top:-50px;
+}
